@@ -1,0 +1,5187 @@
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761296
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => miIO.info
+    [params] => 
+    [id] => -999924
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 400
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761296
+    [checksum] => 9622b922c9fd6fa5bfb256ac24e73843
+    [result] => Array
+        (
+            [hw_ver] => Linux
+            [fw_ver] => 3.3.9_001720
+            [ap] => Array
+                (
+                    [ssid] => CANYON_24AFEA
+                    [bssid] => 6C:FD:B9:24:AF:EA
+                    [rssi] => -46
+                )
+
+            [netif] => Array
+                (
+                    [localIp] => 192.168.1.100
+                    [mask] => 255.255.255.0
+                    [gw] => 192.168.1.1
+                )
+
+            [model] => roborock.vacuum.s5
+            [mac] => 40:31:3C:AE:49:D0
+            [token] => 73687378753978765475794d30536275
+            [life] => 67672
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761297
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_status
+    [params] => 
+    [id] => -999923
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 288
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761297
+    [checksum] => a0eae1456779b2b9a34c80eabb511cf9
+    [result] => Array
+        (
+            [msg_ver] => 2
+            [msg_seq] => 118
+            [state] => 8
+            [battery] => 98
+            [clean_time] => 1012
+            [clean_area] => 16675000
+            [error_code] => 0
+            [map_present] => 1
+            [in_cleaning] => 0
+            [in_returning] => 0
+            [in_fresh_state] => 1
+            [lab_status] => 1
+            [fan_power] => 60
+            [dnd_enabled] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : socket receive error
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761313
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_status
+    [params] => 
+    [id] => -999922
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 288
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761313
+    [checksum] => 41e7d5a7e9214f86f9991d75430bed71
+    [result] => Array
+        (
+            [msg_ver] => 2
+            [msg_seq] => 119
+            [state] => 8
+            [battery] => 98
+            [clean_time] => 1012
+            [clean_area] => 16675000
+            [error_code] => 0
+            [map_present] => 1
+            [in_cleaning] => 0
+            [in_returning] => 0
+            [in_fresh_state] => 1
+            [lab_status] => 1
+            [fan_power] => 60
+            [dnd_enabled] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761324
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_status
+    [params] => 
+    [id] => -999921
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 288
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761324
+    [checksum] => eb31b837a856fb085a7bf64fe110cee2
+    [result] => Array
+        (
+            [msg_ver] => 2
+            [msg_seq] => 120
+            [state] => 8
+            [battery] => 98
+            [clean_time] => 1012
+            [clean_area] => 16675000
+            [error_code] => 0
+            [map_present] => 1
+            [in_cleaning] => 0
+            [in_returning] => 0
+            [in_fresh_state] => 1
+            [lab_status] => 1
+            [fan_power] => 60
+            [dnd_enabled] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761332
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => dnld_install_sound
+    [params] => Array
+        (
+            [sid] => 1
+            [url] => http://192.168.1.103:65000/voicepacks/robot_male_en/robot_male_en.pkg
+            [md5] => b6d7bfb7d3a36c1a9dd3ac6d25c740bb
+        )
+
+    [id] => -999920
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 96
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761332
+    [checksum] => 71ecbed41453014703558f29c60e2398
+    [result] => Array
+        (
+            [progress] => 0
+            [state] => 0
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761333
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999919
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761333
+    [checksum] => ae54d680da3982d2547379bfe16cf28b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 4
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761334
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999918
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761334
+    [checksum] => ebf2432b7fb1d3dc72081044a355cf5a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 5
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761335
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999917
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761335
+    [checksum] => 1df589ce5626e406c2d54d404e803e32
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 6
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761336
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999916
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761336
+    [checksum] => 7ad6211f43be60d5fc9926fb87ee0d9d
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 7
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761336
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999915
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761337
+    [checksum] => 9cc4c55d82932500470ccd9bb22e335c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 8
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761337
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999914
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761338
+    [checksum] => 3c6e40e46a0161f4cd00ee735652ac9f
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 9
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761338
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999913
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761339
+    [checksum] => 0cf3cc41c3bd4a24e73b4183edadc3a0
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 10
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761339
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999912
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761340
+    [checksum] => e8b33256b1ea4353c3526266897a6641
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 11
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761340
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999911
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761341
+    [checksum] => 250267c4a62f0037675e2733344bf2ba
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 12
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761341
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999910
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761341
+    [checksum] => 0781af2dec107277c76b18d52e779d4b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 12
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761342
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999909
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761342
+    [checksum] => 4b744bdb02ab28bdc36f06c804ffe0aa
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 13
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761343
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999908
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761343
+    [checksum] => 26bb47cb4e379e8518aafd5e0cfbceed
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 14
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761344
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999907
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761344
+    [checksum] => 2e452befcbfa6a4bca3104817b8903a6
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 15
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761345
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999906
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761345
+    [checksum] => bee68851bc19ef0af82e7b11e7b5d000
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 16
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761346
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999905
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761346
+    [checksum] => 48ec01856c43a2c44afb838251fd4767
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 17
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761347
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999904
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761347
+    [checksum] => 23f446a2a582aa6a8ac11d76ece118a1
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 18
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761348
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999903
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761348
+    [checksum] => 3a44806c9725a5e1821043e0aa44de9b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 19
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761349
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999902
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761349
+    [checksum] => 2cd90ec444c2769db3b0576d87c47a93
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 20
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761350
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999901
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761350
+    [checksum] => 6d47ec2bc4135a732dc1e80ba6675340
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 21
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761351
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999900
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761351
+    [checksum] => 60ddf542da367ef1b259257adbb2baa0
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 21
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761352
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999899
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761352
+    [checksum] => cc1a0df7fc47f77fc856b4bccec16e59
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 22
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761353
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999898
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761353
+    [checksum] => 77b3cfab08bc50f45e46cce33a053bb6
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 23
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761353
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999897
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761354
+    [checksum] => c2d7e29f99c2c4892e6c95399298d3a7
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 24
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761354
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999896
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761355
+    [checksum] => f4f30b191b6fc75f46355392376879bc
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 25
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761355
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999895
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761356
+    [checksum] => 829959f4be72248e83b61f6e98cc85cd
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 26
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761356
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999894
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761357
+    [checksum] => a736190de7c8de6c3de42e71762841ac
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 27
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761357
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999893
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761357
+    [checksum] => c3d8dde10a33c78950f1051d58152bab
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 28
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761358
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999892
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761358
+    [checksum] => fa8e575bc966eb006b79727c8e5ed784
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 29
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761359
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999891
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761359
+    [checksum] => 76c5b843f74016bef1ece9319359188f
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 30
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761360
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999890
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761360
+    [checksum] => 024713454fb64849bb04ddd71064207d
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 31
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761361
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999889
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761361
+    [checksum] => 3089f8928c496ab2655a0f3148b870fe
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 32
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761362
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999888
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761362
+    [checksum] => 5f4bd7d8c15408608e2a068819b6153b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 33
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761363
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999887
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761363
+    [checksum] => 34f5fb9bedfd225fa2f7d941001e364d
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 34
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761364
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999886
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761364
+    [checksum] => ce19d3bf5b1a7c9f2f44d9025a369e1a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 34
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761365
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999885
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761365
+    [checksum] => 6730bc5e75315a4a74730c6b3a1044bc
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 35
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761366
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999884
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761366
+    [checksum] => 7348e0d3340a93fa83a8861d53c07f60
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 36
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761367
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999883
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761367
+    [checksum] => c48099c5a749d06c2f08aea631dfc40d
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 37
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761368
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999882
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761368
+    [checksum] => 90bf3be230a324de787e466ddfdc10bf
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 38
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761369
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999881
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761369
+    [checksum] => 1574bad50616a9e39929421b7f97c7e3
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 39
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761370
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999880
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761370
+    [checksum] => df5ccf2ba1e1384277a4cb66d6d9e490
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 40
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761371
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999879
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761371
+    [checksum] => 7f234ac1fdf0f7222c573b725645eed5
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 41
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761372
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999878
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761372
+    [checksum] => 480ffe295462b9ee99347e03056f77d5
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 42
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761372
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999877
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761373
+    [checksum] => 6c15e7c691e7e18acdaa17b565e6fcd3
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 43
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761373
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999876
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761374
+    [checksum] => 448aa9ad27a889e4097352497c6022d8
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 44
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761374
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999875
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761375
+    [checksum] => 6ebbc9b62a12bb4133b7ccb9e07b4482
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 44
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761375
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999874
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761375
+    [checksum] => f74f35d783ec5080273fe346b512f801
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 45
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761376
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999873
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761376
+    [checksum] => ac1016da1bc223f02cbf101c57654c32
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 46
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761377
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999872
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761377
+    [checksum] => 0c8a1478b4929bece8be3105e163e38c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 47
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761378
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999871
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761378
+    [checksum] => 0ed97e77b907e4ad6e18e4528d47ca03
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 48
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761379
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999870
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761379
+    [checksum] => d05994335978962f16fd0e2154d3023c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 49
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761380
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999869
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761380
+    [checksum] => 69f23dc4446a583bb78e7fe927c9a9f8
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 50
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761381
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999868
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761381
+    [checksum] => a01ea79758106a693d22419b20de43cc
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 51
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761382
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999867
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761382
+    [checksum] => db7cfd62860131642e10f5e03b331e72
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 52
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761383
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999866
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761383
+    [checksum] => d395a77e24ec099c89a5a9a908604cc5
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 53
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761384
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999865
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761384
+    [checksum] => b0205520c631c8c5542ff313de26d6e0
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 54
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761385
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999864
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761385
+    [checksum] => dc8720d238e0d5282e702c2dc8cc2b6c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 54
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761386
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999863
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761386
+    [checksum] => a2458b06c5f6582e552f9359e9b1ab72
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 55
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761387
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999862
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761387
+    [checksum] => 5ad63557987be59792502cdebb295858
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 56
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761387
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999861
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761388
+    [checksum] => 183458fe70b3c9a9b1f8742218a377dc
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 57
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761388
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999860
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761389
+    [checksum] => 3c5a42377bb164741cb9341d334d2d29
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 58
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761389
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999859
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761390
+    [checksum] => 801b3333cfc223175d259e70d5ac8ac9
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 59
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761390
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999858
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761391
+    [checksum] => 0dcacb23494c634e3b85de2e62feaf17
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 60
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761391
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999857
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761392
+    [checksum] => 9c11cbce985ecbe4f6d2675279ae512b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 61
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761392
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999856
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761392
+    [checksum] => 79c2d3f79cd6f308ea43bb4de5f755a4
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 62
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761393
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999855
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761393
+    [checksum] => 8747e4a585c3dad7f900e81e42698312
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 63
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761394
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999854
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761394
+    [checksum] => 3b7e491eea6744ea536d8335c2840c6b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 64
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761395
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999853
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761395
+    [checksum] => a6178ffb6f086478d49061950dae5e5f
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 65
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761396
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999852
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761396
+    [checksum] => 4ca02037d181acfd22f3712f54b5846f
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 65
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761397
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999851
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761397
+    [checksum] => 7f58fc42f7d101d9121b4e38156ef025
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 66
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761398
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999850
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761398
+    [checksum] => 6cb3b9d3a2d7903e1fe2a0c774ba451c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 67
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761399
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999849
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761399
+    [checksum] => 815508f591098872b8c817938a033d9c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 68
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761400
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999848
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761400
+    [checksum] => bd7062ef7c42530c83d166f29de91bf2
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 69
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761401
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999847
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761401
+    [checksum] => 572073d51ab2b7cae03de3910e638083
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 70
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761402
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999846
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761402
+    [checksum] => 396860521e2c08db8f9342f45b117e0a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 71
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761403
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999845
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761403
+    [checksum] => ee8c020de55d0f3f198b5d46b82fb319
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 72
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761404
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999844
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761404
+    [checksum] => e4f6a0940f4a28942afdf67b2c274244
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 73
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761404
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999843
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761405
+    [checksum] => 65838ea15cc85079175414bb40df387b
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 74
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761405
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999842
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761406
+    [checksum] => efa7a8fe01a281a6980ff6ba32a8b4cf
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 75
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761406
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999841
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761407
+    [checksum] => 75c56cda3eeb92131ebb8e498f58e9ac
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 76
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761407
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999840
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761408
+    [checksum] => 20e0f31908b32a719e3b68192b892666
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 76
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761408
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999839
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761408
+    [checksum] => a48b8379b02608c50037f5359162b531
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 77
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761409
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999838
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761409
+    [checksum] => 7ef0bacef17ad8c2da40998c7f5d1101
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 78
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761410
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999837
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761410
+    [checksum] => a0a61965eb19887f1e1f36718046e470
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 79
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761411
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999836
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761411
+    [checksum] => 92920af53365ebdcd27592c44363bda5
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 80
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761412
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999835
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761412
+    [checksum] => 563d5dedb688513d11c2d63944c224b5
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 81
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761413
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999834
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761413
+    [checksum] => bcf2395b90e96e2ebf523b0e2b2c3605
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 82
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761414
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999833
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761414
+    [checksum] => 40b9b2a7039cbbe9e5f486e3d8e5285c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 83
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761415
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999832
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761415
+    [checksum] => b35fc63ba5b903700af90b644daec494
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 84
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761416
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999831
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761416
+    [checksum] => 258ae54d95e31ea52c62d61477af53e4
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 85
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761417
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999830
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761417
+    [checksum] => 04eba03a2022a69b9fc73d0c086a2027
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 86
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761418
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999829
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761418
+    [checksum] => fa5d13c2211480fe43cf2a15c3f4edc3
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 87
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761419
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999828
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761419
+    [checksum] => 1b385977abc74e600ede9ff8943f7439
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 88
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761420
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999827
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761420
+    [checksum] => b293050edb5d4cbad0d53a57abc62e65
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 89
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761421
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999826
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761421
+    [checksum] => 0e45c2ea84c83822ea8938c545b9a18e
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 89
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761422
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999825
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761422
+    [checksum] => 7bbe1c69d814a4931c76bad368b72fd0
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 90
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761423
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999824
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761423
+    [checksum] => db3b66614a3cdfc7dc462c785bf85b31
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 91
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761424
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999823
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761424
+    [checksum] => 00720aa871de499796c23ac46c4733e3
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 92
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761425
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999822
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761425
+    [checksum] => 1dfcf7fb62fb44fc7f822fd270103fdd
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 93
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761425
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999821
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761426
+    [checksum] => 33c0f1d5c02798d8a4cdfab4ea0685d8
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 94
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761426
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999820
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761427
+    [checksum] => 40b0a99877c972746717938ab810f69a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 95
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761427
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999819
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761428
+    [checksum] => 1f535cf23c179e2463b169a193d45c8c
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 96
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761428
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999818
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761428
+    [checksum] => fc230e6985715c720c7e1c01f3774864
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 97
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761429
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999817
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761429
+    [checksum] => 252cddb9e8f0693a26c4dc45320ba743
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 98
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761430
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999816
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761431
+    [checksum] => c7ed174b55920b7a1b48a45aecfbd98e
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 99
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761431
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999815
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761431
+    [checksum] => 38daea0641ccbedc54ba5ebc33e99546
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 1
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761432
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999814
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761432
+    [checksum] => 5a97b0e104c267682143268c41ff59cb
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761432
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999813
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761432
+    [checksum] => a4bc577b6755ad59728fde53d34af34e
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761433
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999812
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761433
+    [checksum] => efd5aaa9b50b81696c2f164065366e1e
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761433
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999811
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761433
+    [checksum] => 1efa30b0ded9a87ead55648a196450a7
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761434
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999810
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761434
+    [checksum] => b37ca990c1187e61a22a0ab51b3c267a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761434
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999809
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761434
+    [checksum] => 7359c597a10c3e9e68613c1fc13e1986
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761435
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999808
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761435
+    [checksum] => 105c884c18411d1cadf354319ea3cadc
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761435
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999807
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761435
+    [checksum] => 8d0c1432bf67892e200e82961d67c706
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761436
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999806
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761436
+    [checksum] => 53a0b076e4dec33dbec595c0fa6127e6
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761436
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999805
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761437
+    [checksum] => d17de43137346dc69abe31c3c98e343a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761438
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999804
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761438
+    [checksum] => bd8f3bd3da7b44506633a004066a1baa
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761439
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999803
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761439
+    [checksum] => 3f31b2e15cfee9b45c8ffec23fc7e6d8
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761439
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999802
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761439
+    [checksum] => a23149e49715c5ff455692f3ecacbaa9
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761440
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999801
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761440
+    [checksum] => 4b58e1be0ab02c1b10915c1f71749208
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761440
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999800
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761440
+    [checksum] => 5e375e2d192a15bda1be395680fdba40
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761441
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999799
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761441
+    [checksum] => 6bc324b7cd2b87d205d4a5b4b34af9ec
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761442
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999798
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761442
+    [checksum] => c921bbf9ec1df0b971cdc024b92d1023
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761442
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999797
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761443
+    [checksum] => a73e560cc4c75ae09f254bcf91eda92a
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761443
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999796
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761443
+    [checksum] => 0bb81e207dd40337e99d3e727c6bc7f1
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761444
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999795
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761444
+    [checksum] => 73d0bc5cefdddbbaeaf9cfbde7d577dd
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761444
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999794
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761444
+    [checksum] => 140dd18acb49d30ba616a42b1edb6ee3
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761446
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999793
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761446
+    [checksum] => 97212f1336d4691538eabb07b3243497
+    [result] => Array
+        (
+            [sid_in_progress] => 1
+            [progress] => 100
+            [state] => 2
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761446
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_sound_progress
+    [params] => 
+    [id] => -999792
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 128
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761446
+    [checksum] => f392c3d362cbcfd95a0f84d7b6e56d19
+    [result] => Array
+        (
+            [sid_in_progress] => 0
+            [progress] => 100
+            [state] => 3
+            [error] => 0
+        )
+
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761446
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => find_me
+    [params] => 
+    [id] => -999791
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 64
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761446
+    [checksum] => 54054b4956c9f24d191f94fd38705214
+    [result] => ok
+)
+
+REQUEST  : HANDSHAKE
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 32
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761491
+    [checksum] => ffffffffffffffffffffffffffffffff
+    [result] => 1
+)
+
+REQUEST  : Array
+(
+    [method] => get_status
+    [params] => 
+    [id] => -999790
+)
+RESPONSE : Array
+(
+    [header] => 2131
+    [length] => 288
+    [zeroes] => 00000000
+    [type] => 070b
+    [serial] => a14b
+    [timestamp] => 1559761491
+    [checksum] => a47e55644170888ae0b399202069c0bd
+    [result] => Array
+        (
+            [msg_ver] => 2
+            [msg_seq] => 122
+            [state] => 8
+            [battery] => 99
+            [clean_time] => 1012
+            [clean_area] => 16675000
+            [error_code] => 0
+            [map_present] => 1
+            [in_cleaning] => 0
+            [in_returning] => 0
+            [in_fresh_state] => 1
+            [lab_status] => 1
+            [fan_power] => 60
+            [dnd_enabled] => 0
+        )
+
+)
+

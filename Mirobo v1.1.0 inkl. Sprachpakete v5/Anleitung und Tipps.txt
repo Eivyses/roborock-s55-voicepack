@@ -1,0 +1,14 @@
+﻿Folgendes Vorgehen ist zu empfehlen
+*******************************
+1. Notebook oder PC mit Gast-Netzwerk verbinden, falls Ihr Roboter sich im selbigen befindet
+2. Antiviren-Software vorübergehend deaktivieren, falls diese den Zugriff auf den Roboter unterbindet
+3. Firewall vorübergehend deaktiveren, falls diese den Zugriff auf das Netzwerk verhindert
+4. Berechtigungsabfrage unter Windows 10 bestägigen und neben Erlaubnis des Zugriffs auf "Private Netzwerke" ebenfalls das Häkchen bei "Öffentlichen Netzwerken" setzen
+5. win-mirobo-Batchdatei als Administrator ausführen (Rechtsklick)
+6. Roboter in der Nähe des Routers positionieren, Notebook ebenfalls
+7. Prozess des Flashens nicht unterbrechen, falls dieser gestartet wurde
+8. Lautstärke nach erfolgreichem Durchlauf der 4. Schritte herunterregeln
+
+#######################
+#Viel Erfolg, Henne78!#
+#######################

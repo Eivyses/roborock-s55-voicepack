@@ -1,12 +1,12 @@
 # roborock-s55-voicepack
 
-# This is a project, deticated to creating custom voice packs for roborock s50 and s55
+### This is a project, deticated to creating custom voice packs for roborock s50 and s55
 
-# Feel free to add more voices
+### Feel free to add more voices
 
-# voice commands are provided [in here](https://kaeni.de/deutsche-sprachpakete-fuer-den-roborock-sweep-one/)
+### voice commands are provided [in here](https://kaeni.de/deutsche-sprachpakete-fuer-den-roborock-sweep-one/)
 
-#Steps to install custom voice
+# Steps to install custom voice
 * Find your IP
     * Ip can be found in `Mi home app`: 
       * Tap `three dots` on top right corner
@@ -21,3 +21,8 @@
 * Type `2` and press `ENTER`
 * Input your voicepack ant press `ENTER`
 * Wait a bit and it will be finished
+
+# How to make robot voice
+* For that I used [Audacity](https://www.audacityteam.org/)
+* Script that was used to transform voice to robot sounding
+![RobotImage](https://github.com/Eivyses/roborock-s55-voicepack/blob/master/audacity_robot_script.PNG)

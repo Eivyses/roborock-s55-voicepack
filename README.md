@@ -22,6 +22,9 @@
 * Input your voicepack ant press `ENTER`
 * Wait a bit and it will be finished
 
+# How to make voicepack
+* All you have to do is create separate audio files in `.waw` file format and paste them into one folder. All available commands you can find [in here](https://kaeni.de/deutsche-sprachpakete-fuer-den-roborock-sweep-one/)
+
 # How to make robot voice
 * For that I used [Audacity](https://www.audacityteam.org/)
 * Script that was used to transform voice to robot sounding

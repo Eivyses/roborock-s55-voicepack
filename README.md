@@ -26,7 +26,9 @@
 ## How to make voicepack
 * All you have to do is create separate audio files in `.waw` file format and paste them into one folder. All available commands you can find [in here](https://kaeni.de/deutsche-sprachpakete-fuer-den-roborock-sweep-one/)
 * All audiofiles has to be in `mono`
-* You can find other voicepacks [here](https://therealmoeder.github.io/rockrobo.html)
+* Other voicepacks:
+  * [Original](https://vacuumz.info/download/voice/)
+  * [Alternative](https://therealmoeder.github.io/rockrobo.html)
 
 ## How to make robot voice
 * For that I used [Audacity](https://www.audacityteam.org/)

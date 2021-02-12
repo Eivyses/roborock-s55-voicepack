@@ -1,3 +1,6 @@
+# UPDATE
+### I do not own scripts created to connect and update voices. I only created repo as a demo on how to do it in english. Also I do not maintain it. Original post is of german page: https://kaeni.de/deutsche-sprachpakete-fuer-den-roborock-sweep-one/
+
 # Roborock S55 Voicepack
 
 ### This is a project, deticated to creating custom voice packs for roborock s50 and s55
